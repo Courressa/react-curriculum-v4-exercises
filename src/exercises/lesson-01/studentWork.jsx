@@ -16,10 +16,9 @@ export default function StudentWork() {
       {/* add JSX here */}
       <h1>{name}</h1>
       <p>
-        {' '}
         Hello~ My name is {name} and I am {age} years old. I am aiming for a
         career in Software Engineering and I am enjoying my journey so far. A
-        few of my hobbies are:{' '}
+        few of my hobbies are:
       </p>
       <ul>
         {hobbies.map((hobby, index) => (
