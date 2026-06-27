@@ -1,7 +1,9 @@
+
 # React Curriculum v4 Exercises
 
 > [!WARNING]
 > **Always work on your own forked repository. Do NOT create pull requests against the original Code-the-Dream-School repository.**
+<img width="2590" height="930" alt="_2026-06-25_Brave Browser_000928" src="https://github.com/user-attachments/assets/dcdad5eb-e100-4ee6-837d-d651fee7e8ca" />
 
 This repository contains exercises for Code the Dream's 11-lesson Introduction to React. Each lesson builds upon previous concepts, covering everything from basic React fundamentals to advanced topics like routing and deployment. Students will work through structured exercises that reinforce core React development skills and best practices.
 
