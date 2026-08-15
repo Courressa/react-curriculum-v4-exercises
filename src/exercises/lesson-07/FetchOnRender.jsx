@@ -4,7 +4,7 @@ import { getPosts } from './api.js';
 
 export default function FetchOnRender() {
   const [data, setData] = useState();
-  const [error, setError] = useState('');
+  const [error, setError] = useState();
 
   useEffect(() => {
     const gatherInfo = async () => {
