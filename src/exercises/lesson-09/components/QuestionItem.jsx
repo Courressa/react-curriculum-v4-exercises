@@ -2,7 +2,6 @@ import { useContext, useState } from 'react';
 import { SurveyContext } from '../SurveyContext';
 import { QUESTION_TYPES } from '../surveyReducer';
 import styles from '../StudentWork.module.css';
-import { type } from '@testing-library/user-event/dist/cjs/utility/type.js';
 
 // Question Item Component - Students will add Edit/Delete functionality here
 export function QuestionItem({ question }) {
