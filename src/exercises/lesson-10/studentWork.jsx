@@ -55,7 +55,9 @@ export default function StudentWork() {
             path="products/:id"
             element={<ProductDetails products={products} />}
           />
-          {user.isLoggedIn && <Route path="account" element={<Account />} />}
+          {user.isLoggedIn && (
+            <Route path="account" element={<Account user={user} />} />
+          )}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
