@@ -13,6 +13,19 @@ export default function Header({ user }) {
   return (
     <header style={{ padding: 12, borderBottom: '1px solid #ddd' }}>
       <h1 style={{ margin: 0 }}>Lesson 10 Routing Demo</h1>
+      <div className="navigation-bar">
+        <NavLink to="/lessons/lesson-10" end style={navLinkStyles}>
+          Home
+        </NavLink>
+        <NavLink to="/lessons/lesson-10/checkout" style={navLinkStyles}>
+          Checkout
+        </NavLink>
+        {user.isLoggedIn && (
+          <NavLink to="/lessons/lesson-10/account" style={navLinkStyles}>
+            Account
+          </NavLink>
+        )}
+      </div>
 
       <nav style={{ display: 'flex', gap: 12, marginTop: 8 }}>
         <a
